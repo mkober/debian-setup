@@ -6,7 +6,7 @@ cd ~/
 git clone git://git.sv.gnu.org/emacs.git
 cd emacs
 ./autogen.sh
-./configure --with-pgtk
+./configure
 make -j8
 sudo make install
 mv emacs trash
