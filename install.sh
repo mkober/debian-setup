@@ -17,6 +17,7 @@ mkdir ~/Trash
 ./aws.sh
 ./brave.sh
 ./docker.sh
+./games.sh
 ./dotfiles.sh
 
 sudo apt autoremove
