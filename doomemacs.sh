@@ -4,11 +4,14 @@ sudo apt install -y build-essential libgtk-3-dev libgnutls28-dev libtiff5-dev li
 
 cd ~/
 git clone git://git.sv.gnu.org/emacs.git
+
 cd emacs
 ./autogen.sh
 ./configure
 make -j8
 sudo make install
+
+cd ~/
 mv emacs trash
 
 cd ~/
