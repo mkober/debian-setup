@@ -1,13 +1,15 @@
 #!/bin/bash
 
-git clone https://github.com/mkober/dotfiles ~/Github/dotfiles
+git clone https://github.com/mkober/dotfiles ~/Repos/dotfiles
 
-ln -s ~/Github/dotfiles/.tmux.conf ~/.tmux.conf
-ln -s ~/Github/dotfiles/.fonts ~/.fonts
-ln -s ~/Github/dotfiles/.bash_aliases ~/.bash_aliases
+ln -s ~/Repos/dotfiles/.tmux.conf ~/.tmux.conf
+ln -s ~/Repos/dotfiles/.fonts ~/.fonts
+
+ln -s ~/Repos/dotfiles/.bash_aliases ~/.bash_aliases_popos
 
 rm -rf ~/.config/doom
-ln -s ~/Github/dotfiles/.config/doom ~/.config/doom
-ln -s ~/Github/dotfiles/.config/nvim ~/.config/nvim
+
+ln -s ~/Repos/dotfiles/.config/doom ~/.config/doom
+ln -s ~/Repos/dotfiles/.config/nvim ~/.config/nvim
 
 fc-cache -f -v

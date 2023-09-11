@@ -12,7 +12,7 @@ make -j8
 sudo make install
 
 cd ~/
-mv emacs trash
+mv emacs Trash
 
 cd ~/
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
