@@ -5,7 +5,7 @@ git clone https://github.com/mkober/dotfiles ~/Repos/dotfiles
 ln -s ~/Repos/dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/Repos/dotfiles/.fonts ~/.fonts
 
-ln -s ~/Repos/dotfiles/.bash_aliases ~/.bash_aliases_popos
+ln -s ~/Repos/dotfiles/.bash_aliases ~/.bash_aliases
 
 rm -rf ~/.config/doom
 
